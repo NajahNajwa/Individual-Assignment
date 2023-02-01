@@ -1,0 +1,370 @@
+body
+{
+    background-color: antiquewhite;
+    
+}
+.header
+{
+    background-color:pink;
+    padding: 15px;
+    box-shadow: 0 0 4px #000;
+    text-align: center;
+}
+.header li
+{
+    display: inline;
+    padding-left: 45px;
+
+}
+.header li a
+{
+    color: firebrick;
+    text-decoration: none;
+    padding: 13px;
+    transition:.3s ease-in-out;
+}
+.header li a:hover
+{
+    color:hotpink
+}
+.header ul #MyContact a
+{
+    color: crimson;
+    background-color: lightcoral;
+    border-radius: 30px;
+    float:right;
+    position: relative;
+    top: -15px;
+    transition: .3s ease-in-out;
+}
+.header ul #MyContact a:hover
+{
+    background-color:blueviolet;
+}
+/*--Homepage--*/
+.body
+{
+    background-color:darksalmon;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.header
+{
+    background-color:pink;
+    padding: 15px;
+    box-shadow: 0 0 4px #000;
+    text-align: center;
+}
+.header li
+{
+    display: inline;
+    padding-left: 45px;
+
+}
+.header li a
+{
+    color: firebrick;
+    text-decoration: none;
+    padding: 13px;
+    transition:.3s ease-in-out;
+}
+.header li a:hover
+{
+    color:hotpink
+}
+.header ul #MyContact a
+{
+    color: crimson;
+    background-color: lightcoral;
+    border-radius: 30px;
+    float:right;
+    position: relative;
+    top: -15px;
+    transition: .3s ease-in-out;
+}
+.header ul #MyContact a:hover
+{
+    background-color:blueviolet;
+}
+.high
+{
+    width:100%;
+    height: 450px;
+    padding-bottom: 50%;
+    text-align: center;
+    font-size: 50px;
+    color:black;
+    background-color:indianred
+}
+#home
+{
+    display:flex;
+    flex-direction:column;
+    height:650px;
+    justify-content:center;
+    align-items:center;
+    background-color:rosybrown;
+}
+#home::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    background-image:url('C:\Users\Admin\OneDrive\Documents\MY WEBSITE\bg.jpg')
+}
+div.footer
+    {
+        float:left;
+        width:100%;
+        height:80px;
+        background-color: goldenrod;
+    }
+
+    p.footer
+    {
+        color:black
+    }
+
+/*--My Contact--*/
+#contact
+{
+    display:flex;
+    flex-direction:column;
+    background-color:lightpink;
+}
+.heading
+{
+    margin:50px;
+    font-size: 30px;
+}
+.form
+{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.input
+{
+    padding:15px 20px;
+    margin:15px;
+    width:40%;
+    border:none;
+    outline:none;
+    border-radius:25px;
+}
+#message
+{
+    margin:15px;
+    padding:10px;
+    border-radius:20px;
+}
+#submit
+{
+    padding:15px 20px;
+    margin:30px;
+    width:15%;
+    border-radius:20px;
+    background-color: lightsalmon;
+    color: #000;
+    border:none;
+    outline:none;
+}
+#submit:hover
+{
+background-color:violet;
+color:#000;
+cursor:pointer;
+}
+.h8
+{
+    text-align: center;
+    font-size: 35px;
+}
+.sosial
+{
+    width:15px 15px;   
+}
+.fa-instagram
+    {
+        color:crimson;
+    }
+ .fa-instagram:hover
+    {
+        color:darkred;
+    }
+ .fa-facebook
+ {
+    color:darkviolet;
+ }
+ .fa-facebook:hover
+ {
+    color: blueviolet;
+ }
+    /*--Biodata--*/
+    
+/*--Gallery--*/
+.Box-Gallery
+{
+    text-align: center;
+    color:black;
+    margin-top: 30px;
+    align-content: center;
+    background-color: blanchedalmond;
+}
+.box-left, .box-middle, .box-right
+{
+width:600px;
+height:720px;
+background-color:darkkhaki;
+text-align: center;
+padding:10px 40px;
+padding-right: 20px;
+margin:70px 20px 20px 55px;
+float:left;
+border-radius: 10px;
+}
+.box-left:hover, .box-middle:hover, .box-right:hover
+{
+background-color:khaki;
+color:chocolate;
+}
+.Box-Gallery .h16, p
+{
+margin-top: 10px;
+margin-bottom: 13px;
+padding-top: 0px;
+padding:0px 20px;
+}
+
+/*--Family--*/
+table,tr,td,th
+    {
+        border-collapse: collapse;
+        border: 3px solid black;
+    }
+table
+    {
+        width: 700px;
+        height:550px;
+        text-align: center;
+    }
+    td
+        {
+            padding: 5px;
+            font-size: 20px;
+        }
+    th
+    {
+        background-color:wheat;
+        color:black;
+        font-size: 20px;
+    }
+    tr
+    {
+        background-color:darksalmon;
+    }
+
+    tr:nth-child(odd)
+    {
+        background-color:coral;
+    }
+
+    tr:hover
+    {
+        background-color:bisque;
+    }
+    h5
+    {   
+        background-color: chocolate;
+        width:300px;
+        font-size: 25px;
+    }
+    h6
+    {
+        font-size: 25px;
+        background-color: coral;
+        width:300px;
+        text-align: center;
+    }
+
+/*--Education--*/
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #c54b4b;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: rgb(110, 33, 33);
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: #b48c2f;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .card:hover
+  {
+    background-color: chocolate;
+    cursor: pointer;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+}
+/*--Experience--*/
+.container
+{
+    max-width:1200px;
+    margin:auto;
+    background: #f2f2f2;
+    overflow:auto;
+    margin-top:3%
+}
+.gallery
+{
+    margin:5px;
+    border:1px solid #ccc;
+    float:left;
+    width:390px;
+}
+.desc
+{
+    padding:15px;
+    text-align: center;
+}
+.gallery:hover
+{
+    background-color:coral;
+    cursor:pointer;
+    color:white;
+}
+
+    
